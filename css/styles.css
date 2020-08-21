@@ -1,0 +1,10 @@
+body{
+  font-family: "Helvetica Neue",'Hannotate TC','Verdana',sans-serif;
+  letter-spacing: 0.1em;
+  overflow-y: scroll;
+  margin:20px;
+  padding:10px;
+  border-width:10px;
+  border-style: solid;
+}
+
