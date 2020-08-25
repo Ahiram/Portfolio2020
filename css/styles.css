@@ -1,10 +1,37 @@
 body{
   font-family: "Helvetica Neue",'Hannotate TC','Verdana',sans-serif;
+  color: darkslategray;
   letter-spacing: 0.1em;
   overflow-y: scroll;
-  margin:20px;
-  padding:10px;
-  border-width:10px;
-  border-style: solid;
+  margin:0px;
+  padding:0px;
+  background-color: beige;
+  font-size:16px;
 }
+header h1{
+  
+  font-size: 1.3rem;
+}
+.navi{
+  margin: auto;
+}
+.navi a{
+  font-size:0.8rem;
+  cursor:pointer;
+  text-decoration: none;
+  color: darkslategray;
+}
+.navi a:hover{
+  background-color: cadetblue;
+}
+#headercontainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (min-width: 600px) {
 
+}
+@media (min-width: 1025px) {
+
+}
