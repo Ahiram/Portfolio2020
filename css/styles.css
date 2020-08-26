@@ -4,13 +4,22 @@ body{
   letter-spacing: 0.1em;
   overflow-y: scroll;
   margin:0px;
-  padding:0px;
+  padding:0px 5px 5px;
   background-color: beige;
   font-size:16px;
 }
-header h1{
-  
+#header{
+  position: fixed;
+  height: 60px;
+  width:100%;
+  background-color: beige;
+}
+#mainbox{
+  padding-top: 60px;
+}
+#header h1{
   font-size: 1.3rem;
+  margin:auto;
 }
 .navi{
   margin: auto;
@@ -24,14 +33,44 @@ header h1{
 .navi a:hover{
   background-color: cadetblue;
 }
-#headercontainer{
+.headercontainer{
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 @media (min-width: 600px) {
-
+  #header h1{
+    font-size: 1.8rem;
+    margin: auto;
+  }
+  #header{
+    position: fixed;
+    height: 80px;
+  }
+  #mainbox{
+    padding-top: 80px;
+  }
+  .navi a{
+    font-size:1.6rem;
+  }
 }
 @media (min-width: 1025px) {
-
+  body{
+    display: flex;
+  }
+  #header{
+    width:250px;
+    flex: 0 0 250px;
+    position: fixed;
+  }
+  #header h1{
+    width: 250px;
+  }
+  .headercontainer{
+    display: block;
+    justify-content: space-between;
+  }
+  #mainbox{
+    padding:0px 0px 0px 250px;
+  }
 }
