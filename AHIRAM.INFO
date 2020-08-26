@@ -1,0 +1,5 @@
+
+; <<>> DiG 9.10.6 <<>> WWW +nostats +nocomments +nocmd
+;; global options: +cmd
+;WWW.				IN	A
+.			10800	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2020082600 1800 900 604800 86400
