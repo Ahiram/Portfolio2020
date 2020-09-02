@@ -34,7 +34,7 @@ body{
   color:hsl(var(--my-hue), 35%, 55%);
 }
 .navi a:hover{
-  color:hsl(calc(var(--my-hue)+60), 35%, 55%);
+  color:hsl(calc(var(--my-hue)+90), 35%, 55%);
   background-color:hsl(calc(var(--my-hue) + 60), 50%, 50%);
 }
 .headercontainer{
